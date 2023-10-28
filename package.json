@@ -1,0 +1,29 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "DoubledConG's development documents.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cccoding365/docs.git"
+  },
+  "keywords": [
+    "documents",
+    "notes",
+    "study"
+  ],
+  "author": "DoubledConG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cccoding365/docs/issues"
+  },
+  "homepage": "https://github.com/cccoding365/docs#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.22"
+  }
+}
