@@ -1,39 +1,37 @@
-import { defineConfig } from "vitepress";
-
-import nav from './nav.config';
-import sidebar from './sidebar.config';
+import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-	// base: "/ccdevdocs/",
-	title: "DevDocs",
-	head: [["link", { rel: "icon", href: "/logo.svg" }]],
-	cleanUrls: true,
+  lang: 'zh',
+  title: "My Awesome Project",
+  description: "A VitePress Site",
+  themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2019-Present DoubledConG'
+    },
+    nav: [
+      { text: '首页', link: '/' },
+      { text: 'Examples', link: '/markdown-examples' }
+    ],
 
-	markdown: {
-		lineNumbers: true
-	},
+    search: {
+      provider: 'local'
+    },
 
-	// https://vitepress.dev/reference/default-theme-config
-	themeConfig: {
-		logo: "/logo.svg",
-		lastUpdated: true,
-		search: { provider: "local", },
+    sidebar: [
+      {
+        text: 'Examples',
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      }
+    ],
 
-		nav,
-
-		sidebar,
-
-		socialLinks: [
-			{
-				icon: "github",
-				link: "https://github.com/cccoding365/ccdevdocs",
-			},
-		],
-
-		footer: {
-			message: "Released under the MIT License.",
-			copyright: "Copyright © 2019-present DoubledConG",
-		},
-	},
-});
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    ]
+  }
+})

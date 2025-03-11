@@ -2,28 +2,24 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
-pageClass: home
-
 hero:
-    name: "CC's DevDocs"
-    text: "Keep track of what I've learned . . ."
-    tagline: Three candles that illuminate every darkness are Truth, Nature and Knowledge.
-    image:
-        src: /cover.svg
-        alt: ccDevDocs
-    actions:
-        - theme: brand
-          text: Start reading
-          link: /frontend/
-        - theme: alt
-          text: About me
-          link: /about/
+  name: "My Awesome Project"
+  text: "A VitePress Site"
+  tagline: My great project tagline
+  actions:
+    - theme: brand
+      text: 开始阅读
+      link: /markdown-examples
+    - theme: alt
+      text: 关于本站
+      link: /api-examples
 
 features:
-    - title: ✨ Advanced technology
-      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    - title: 🏹 Amazing share
-      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    - title: 🚀 Excellent project
-      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature A
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature B
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
