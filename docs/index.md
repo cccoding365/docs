@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "编程生活录"
-  text: "Code & Life Notes"
+  text: "Code Life Book"
   tagline: 我的编程笔记、生活随笔和奇思妙想。
   image:
     src: /hero.svg
