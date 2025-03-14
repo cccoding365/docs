@@ -30,7 +30,9 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
     nav: [
       { text: '首页', link: '/' },
-      { text: '关于', link: '/about' }
+      { text: '关于', link: '/about' },
+      { text: '网址书签', link: '/site' },
+      { text: '个人站点', link: 'https://hecongcong.com/' }
     ],
     logo: 'logo.svg',
     search: {
@@ -59,27 +61,23 @@ export default defineConfig({
         }
       }
     },
-
-    sidebar: [
-      {
-        text: '编程笔记',
+    sidebar: {
+      '/programming/': {
         items: [
-          { text: '前端已死', link: '/前端已死' }
+          { text: '前端已死', link: '/programming/前端已死' }
         ]
       },
-      {
-        text: '生活随笔',
+      '/life/': {
         items: [
-          { text: '关系未变，为何断了联系', link: '/关系未变，为何断了联系' }
+          { text: '关系未变，为何断了联系', link: '/life/关系未变，为何断了联系' }
         ]
       },
-      {
-        text: '奇思妙想',
+      '/thinking/': {
         items: [
-          { text: '100种写段子的方法', link: '/100种写段子的方法' }
+          { text: '100种写段子的方法', link: '/thinking/100种写段子的方法' }
         ]
       }
-    ],
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/cccoding365' }
