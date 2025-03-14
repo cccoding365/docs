@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "编程生活录"
   text: "Code Life Book"
-  tagline: 我的编程笔记、生活随笔和奇思妙想。
+  tagline: 记录我的编程之路，分享生活见闻和奇思妙想
   image:
     src: /hero.svg
   actions:
@@ -20,7 +20,7 @@ features:
   - icon:
       src: /01.svg
     title: 编程笔记
-    details: 编程是一场充满未知的探索之旅，希望我的经验能够为同样在编程世界中奋斗的朋友们提供一丝启发。
+    details: 编程是一场充满挑战的探索之旅，希望我的经验能够为同样在编程世界中奋斗的朋友们提供一丝启发。
   - icon:
       src: /02.svg
     title: 生活随笔
@@ -28,5 +28,5 @@ features:
   - icon:
       src: /03.svg
     title: 奇思妙想
-    details: 看似寻常的世界里隐藏着无数秘密和奇妙的可能性，我脑海中的奇思妙想是我对世界的一种独特解读。
+    details: 看似寻常的世界里隐藏着无数秘密和奇妙的可能性，脑海中的奇思妙想是我对世界的一种独特解读。
 ---

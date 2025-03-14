@@ -9,8 +9,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-Present DoubledConG'
+      message: '代码改变世界很难，做点有趣的事儿刚刚好',
+      copyright: '版权所有 © 2019-2025 DoubledConG'
     },
     docFooter: {
       prev: '上一篇',
