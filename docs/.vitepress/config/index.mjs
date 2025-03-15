@@ -25,7 +25,7 @@ export default defineConfig({
         nav: [
             { text: '首页', link: '/' },
             { text: '关于', link: '/about' },
-            { text: '网址书签', link: '/site' },
+            { text: '网址书签', link: '/bookmark/official' },
             { text: '个人站点', link: 'https://hecongcong.com/' }
         ],
         sidebar: {
@@ -45,6 +45,17 @@ export default defineConfig({
                 base: '/thinking/',
                 items: [
                     { text: '100种写段子的方法', link: '100种写段子的方法' }
+                ]
+            },
+            '/bookmark/': {
+                text: '网址书签',
+                base: '/bookmark/',
+                items: [
+                    { text: '技术栈官网', link: 'official' },
+                    { text: '在线工具', link: 'tools' },
+                    { text: '工具库', link: 'library' },
+                    { text: '设计参考', link: 'design' },
+                    { text: '其他', link: 'others' }
                 ]
             }
         }
