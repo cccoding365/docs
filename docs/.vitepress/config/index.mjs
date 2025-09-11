@@ -58,6 +58,7 @@ export default defineConfig({
         },
         nav: [
             { text: '首页', link: '/' },
+            { text: '语录', link: '/quote' },
             { text: '关于', link: '/about' },
             { text: '个人站点', link: 'https://hecongcong.com/' }
         ]
