@@ -56,6 +56,9 @@ export default defineConfig({
             message: '改变世界很难，但是做点有趣的事儿刚刚好',
             copyright: '版权所有 © 2019-2025 DoubledConG'
         },
+        outline: {
+            // level: 'deep'
+        },
         nav: [
             { text: '首页', link: '/' },
             {
