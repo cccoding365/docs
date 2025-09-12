@@ -92,7 +92,7 @@ curl -s http://localhost:4873 | grep -i title
 # 返回 <title>Verdaccio</title>
 ```
 
-浏览器打开 http://localhost:4873 能看到如下欢迎页即成功。
+浏览器打开 `http://localhost:4873` 能看到如下欢迎页即成功。
 
 ![](./assets/verdaccio.png)
 

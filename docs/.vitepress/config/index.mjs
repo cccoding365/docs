@@ -6,7 +6,6 @@ export default defineConfig({
     description: "一个记录程序员成长与生活的随笔集，分享编程笔记、个人生活感悟以及对人生、社会的思考。",
     head: [['link', { rel: 'icon', href: '/favicon.svg' }]],
     themeConfig: {
-        logo: 'logo.svg',
         docFooter: {
             prev: '上一篇',
             next: '下一篇'
@@ -55,9 +54,6 @@ export default defineConfig({
         footer: {
             message: '改变世界很难，但是做点有趣的事儿刚刚好',
             copyright: '版权所有 © 2019-2025 DoubledConG'
-        },
-        outline: {
-            // level: 'deep'
         },
         nav: [
             { text: '首页', link: '/' },
