@@ -48,6 +48,9 @@ export default defineConfig({
                 }
             }
         },
+        outline: {
+            level: 'deep'
+        },
         socialLinks: [
             { icon: 'github', link: 'https://github.com/cccoding365' }
         ],
@@ -57,31 +60,30 @@ export default defineConfig({
         },
         nav: [
             { text: '首页', link: '/' },
-            {
-                text: '编程笔记',
-                items: [
-                    { text: '技术栈', link: '/notes' }
-                ]
-            },
-            {
-                text: '生活随笔',
-                items: [
-                    { text: '语录', link: '/quote' },
-                    { text: '书籍推荐', link: '/life/books' },
-                    { text: '影视推荐', link: '/life/videos' },
-                    { text: '音乐推荐', link: '/life/music' }
-                ]
-            },
+            { text: '编程笔记', link: '/notes' },
+            { text: '生活随笔', link: '/life' },
             { text: '关于', link: '/about' },
             { text: '个人站点', link: 'https://hecongcong.com/' }
         ],
         sidebar: {
             '/notes/': {
-                text: '笔记',
+                text: '编程笔记',
                 base: '/notes/',
                 items: [
                     { text: '笔记', link: 'index' },
+                    { text: '高效生产力', link: 'productivity' },
                     { text: 'Verdaccio', link: 'verdaccio' }
+                ]
+            },
+            '/life/': {
+                text: '生活随笔',
+                base: '/life/',
+                items: [
+                    { text: '生活随笔', link: 'index' },
+                    { text: '语录', link: '/quote' },
+                    { text: '书籍推荐', link: '/books' },
+                    { text: '影视推荐', link: '/videos' },
+                    { text: '音乐推荐', link: '/music' }
                 ]
             }
         }
