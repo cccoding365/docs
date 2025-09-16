@@ -11,7 +11,8 @@ export default defineConfig({
             next: '下一篇'
         },
         outline: {
-            label: '页面导航'
+            label: '页面导航',
+            level: 'deep'
         },
         lastUpdated: {
             text: '最后更新于'
@@ -47,9 +48,6 @@ export default defineConfig({
                     }
                 }
             }
-        },
-        outline: {
-            level: 'deep'
         },
         socialLinks: [
             { icon: 'github', link: 'https://github.com/cccoding365' }
