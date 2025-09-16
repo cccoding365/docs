@@ -70,6 +70,7 @@ export default defineConfig({
                 items: [
                     { text: '笔记', link: 'index' },
                     { text: '高效生产力', link: 'productivity' },
+                    { text: 'Git', link: 'git' },
                     { text: 'Verdaccio', link: 'verdaccio' }
                 ]
             },
